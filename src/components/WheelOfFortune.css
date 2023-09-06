@@ -1,0 +1,53 @@
+/* WheelOfFortune.css */
+
+.wheel-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.wheel-of-fortune {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  /* Add a black border to the circle */
+  border-radius: 50%;
+  /* Make it a circle */
+  /* transform-origin: center center; */
+  transition: transform 4s ease-in-out;
+}
+
+.slice {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 50%,
+      100% 100%,
+      100% 50%);
+  background-color: #ff9900;
+  /* Adjust the color as needed */
+  transform-origin: 50% 100%;
+  transition: transform 4s ease-in-out;
+}
+
+.spin-button {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #0073e6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  left: calc(50% - 30px);
+  top: calc(50% - 30px);
+  /* transform: translate(50%, 50%); */
+}
+
+/* You can adjust the button's size, colors, and positioning as needed */

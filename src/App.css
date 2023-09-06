@@ -1,0 +1,26 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  /* Set your desired background color */
+}
+
+.app-container {
+  text-align: center;
+}
+
+.centered-container {
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  /* Set a background color for the container */
+  border-radius: 10px;
+  /* Add some border-radius for styling */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add a box shadow for depth */
+}
