@@ -15,11 +15,11 @@ Users will have the ability to access a session through a provided link and ente
 **Objective**: Create a simple UI application with a wheel containing names, where a user can input names and randomize them.
 
 #### Steps:
-1. Set up the Vue.js Project
-   - Create a new Vue.js project using the Vue CLI. ☑
+1. Set up the React Project
+   - Create a new React project using Vite. ☑
 
 2. Create UI Components
-   - Build Vue components for name input and displaying the wheel with names. ☐
+   - Build React components for name input and displaying the wheel with names. ☐
    - Implement the wheel with names, including initial static names. ☐
 
 3. Implement Randomization Logic
@@ -45,8 +45,8 @@ It should be responsive, providing an excellent user experience on both mobile a
 **Objective**: Expand the application to persist entered names, allow multiple users to access the same instance, and maintain the wheel functionality.
 
 #### Steps:
-1. Vue Router Integration
-   - Configure Vue Router to create different pages for instances with unique URLs. ☐
+1. React Router Integration
+   - Configure React Router to create different pages for instances with unique URLs. ☐
 
 2. State Management with Pinia
    - Implement Pinia to manage the application's state, including the names on the wheel. ☐
@@ -89,7 +89,7 @@ It should be responsive, providing an excellent user experience on both mobile a
 ---
 
 Techstack:
-- Vue.js, TypeScript, Pinia, etc...
-- Unit-test: Vitest
+- React, TypeScript, Vite etc...
+- Unit-test: ...
 - E2E test: Playwright
 - Cloud: AWS
